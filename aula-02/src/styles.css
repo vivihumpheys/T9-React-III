@@ -1,0 +1,13 @@
+/* o asterisco indica que vai atribuir essas propriedades em todas as paginas */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family:  Arial, Helvetica, sans-serif;
+    background: #fcf5f5f3;
+}
