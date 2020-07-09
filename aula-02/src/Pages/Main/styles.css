@@ -18,3 +18,24 @@
     margin-top: 10px;
     line-height: 25px;
 }
+
+.biography-list article a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    height: 35px;
+    margin-top: 10px;
+    border: 2px solid #153b8e;
+    border-radius: 3px;
+    color: #153b8e;
+    transition: all 0.3s;
+}
+
+.biography-list article a:hover{
+    background: #153b8e ;
+    color: #fff ;
+    
+}
