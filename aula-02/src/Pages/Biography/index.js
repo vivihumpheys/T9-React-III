@@ -16,7 +16,7 @@ class Biography extends Component {
     render(){
       const {biography} = this.state;
           return(
-            <div>
+            <div className='biography-info'>
                 <h1>{biography.nome}</h1>
                 <p>{biography.description}</p>
                 <div><a href= {biography.url}>Leia Mais</a></div>

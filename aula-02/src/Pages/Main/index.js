@@ -61,7 +61,7 @@ class Main extends Component {
           </article>
       
         ))}
-        <div>
+        <div className='actions'>
           <button disabled={page===1} onClick={this.prevPage}>Anterior</button>
           <button disabled={page===biographyInfo.pages} onClick={this.nextPage}>Próximo</button>
         </div>
